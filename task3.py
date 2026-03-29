@@ -1,4 +1,3 @@
-name = input("enter name: ")
 print("Name uppercase :", name.upper())
 print("Name lowercase :", name.lower())
 print("Name length :", len(name))

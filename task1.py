@@ -48,3 +48,13 @@ print("Time period :", period)
 print("Discount :", discount, "KZT")
 print("Total :", total, "KZT")
 print("="*30)
+
+print("Name uppercase :", customer.upper())
+print("Name lowercase :", customer.lower())
+print("Name length :", len(customer))
+print("-"*30)
+if customer[0].upper() == 'A' or customer[0].upper() == 'S':
+    print("VIP customer")
+else:
+    print("Regular customer")
+print("="*30)
